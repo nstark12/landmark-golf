@@ -276,6 +276,7 @@ ul {
   margin-top: 0px;
 }
 
+/* -----------------category section styling----------------- */
 .container .category {
   font-family: var(--fancy-font);
   text-transform: uppercase;
@@ -290,6 +291,7 @@ ul {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 
 .category-column {
@@ -316,6 +318,59 @@ ul {
   font-size: 15px;
   color: #000000;
 }
+
+/* -----------------info section----------------- */
+.two-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+
+}
+
+.col header {
+    color: #FFFFFF;
+    background-color: rgb(0,0,0,0.5);
+    padding-top: 13px;
+    font-size: 43px;
+    padding: 23px;
+    font-family: var(--fancy-font);
+}
+
+.col p {
+    color: #FFFFFF;
+    font-size: 25px;
+    background-color: rgb(0,0,0,0.5);
+    padding: 23px;
+    font-family: var(--fancy-font);
+    margin-bottom: 20px;
+}
+
+.bg-1 {
+  margin: 1%;
+  background-image: url("../images/range-min.png");
+  background-size: cover;
+  background-position: center 0%;
+  height: 500px;
+}
+
+.bg-2 {
+  margin: 1%;
+  background-image: url("../images/sust-min.jpg");
+  background-size: cover;
+  background-position: center 0%;
+  height: 500px;
+}
+
+/* -----------------materials section----------------- */
 
 /* -----------------media queries----------------- */
     @media screen and (max-width: 970px) {
