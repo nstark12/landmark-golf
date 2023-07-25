@@ -1,6 +1,7 @@
 :root {
     --dark-green: #4D5F32;
     --darker-green: #303F1F;
+    --fancy-font: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 }
 
 * {
@@ -34,7 +35,7 @@ ul {
 
 .hero-text h1{
   color: #EDEDED;
-  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+  font-family: var(--fancy-font);
   font-size: 64px;
   font-weight: 300;
   margin-top: 12px;
@@ -221,13 +222,13 @@ ul {
 
 .carslider section .ctest {
 	font-style: italic;
-  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+  font-family: var(--fancy-font);
 	color: #fff;
 }
 
 .carslider section .club{
 	font-size: 35px;
-  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+  font-family: var(--fancy-font);
 	color: #fff;
 	margin-bottom: 5px;
 	
@@ -235,7 +236,7 @@ ul {
 
 .carslider section .location{
 	font-size: 25px;
-  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+  font-family: var(--fancy-font);
 	color: #fff;
 	font-style: italic;
   margin-bottom: 10px;
@@ -243,7 +244,7 @@ ul {
 
 .carslider section p {
 	font-size: 18px;
-  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+  font-family: var(--fancy-font);
 	color: #fff;
   margin: 0 200px 10px;
 	text-align: center;
@@ -255,7 +256,7 @@ ul {
 
 .carslider section .name {
 	font-size: 17px;
-  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+  font-family: var(--fancy-font);
 	color: #fff;
 	font-weight: bold;
 	margin-bottom: 5px;
@@ -263,9 +264,57 @@ ul {
 
 .carslider section .job {
 	font-size: 17px;
-  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+  font-family: var(--fancy-font);
 	color: #fff;
 	font-style: italic;
+}
+
+.container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
+.container .category {
+  font-family: var(--fancy-font);
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: lighter;
+  color: #303F1F;
+  margin: 30px auto;
+}
+
+.col8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.category-column {
+  width: 12.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-column img {
+  width: 100%;
+  padding: 8px;
+}
+
+.bcategory {
+  border: none;
+  background: #ffffff;
+}
+
+.bcategory a{
+  border: none;
+  background: #ffffff;
+  font-size: 15px;
+  color: #000000;
 }
 
 /* -----------------media queries----------------- */
@@ -441,12 +490,25 @@ ul {
 
     }
 
+    @media (max-width: 850px) {
+
+      /* makes category section responsive at different width */
+      .category-column {
+        width: 25%;
+      }
+    }
 
     @media (max-width: 767px) {
         .footer-col {
             width: 50%;
             margin-bottom: 30px;
         }
+
+        /* makes category section responsive at different width */
+        .category-column {
+          width: 22%;
+        }
+
     }
 
     @media (max-width: 574px) {
@@ -459,5 +521,11 @@ ul {
           display: none;
         }
         
+        /* makes category section responsive at small width */
+        .category-column {
+          width: 48%;
+        }
+
+
     }
   
