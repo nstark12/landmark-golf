@@ -19,7 +19,7 @@ ul {
     list-style: none;
 }
 
-/* navbar styling */
+/* -----------------navbar styling----------------- */
 nav {
     position: fixed;
     z-index: 99;
@@ -171,7 +171,7 @@ nav .wrapper {
       background-color: var(--dark-green);
   }
 
-  /* strip below navbar styling */
+  /* -----------------strip below navbar styling----------------- */
   .strip {
     background-color: #000; 
     padding: 72px 40px 0 40px;
@@ -185,7 +185,7 @@ nav .wrapper {
     padding-top: 4px;
 }
 
-/* hero styling */
+/* -----------------hero styling----------------- */
 .hero-content {
   height: 770px;
   background-size: cover;
@@ -233,7 +233,7 @@ nav .wrapper {
   cursor: pointer;
 }
 
-/* footer styling */
+/* -----------------footer styling----------------- */
 .footer-container{
 	max-width: 1170px;
 	background-color: var(--dark-green);
@@ -330,7 +330,7 @@ nav .wrapper {
     color: var(--dark-green);
 }
 
-/* cookie popup styling */
+/* -----------------cookie popup styling----------------- */
 .cookiewrapper{
   position: absolute;
   bottom: 30px;
@@ -398,9 +398,138 @@ nav .wrapper {
   color: #FCBA7F;
 }
 
+/* -----------------customer testimonial slider styling----------------- */
+.carcontainer {
+	width: 100%;
+	margin: 0px auto;
+}
 
+.carousel {
+	border: 2px;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+}
 
-/* media queries */
+.carslider {
+	height: 100%;
+	display: flex;
+	width: 400%;
+	transition: all 0.3s;
+}
+
+.carslider section {
+	flex-basis: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--dark-green);
+}
+
+.controls .arrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+
+.controls .arrow i {
+	font-size: 40px;
+	color: #fff;
+}
+
+.arrow.left {
+	left: 10px;
+}
+
+.arrow.right {
+	right: 10px;
+}
+
+.controls ul {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translate(-50%);
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.controls ul li {
+	width: 14px;
+	height: 14px;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	margin: 10px;
+	background: #fff;
+	cursor: pointer;
+}
+
+.controls ul li.selected {
+	background: transparent;
+}
+
+.carslider section img {
+	height: 50px;
+	width: 50px;
+	display: block;
+	margin-bottom: 15px;
+	margin-top: -50px;
+}
+
+.carslider section .ctest {
+	font-style: italic;
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color: #fff;
+}
+
+.carslider section .club{
+	font-size: 35px;
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color: #fff;
+	margin-bottom: 5px;
+	
+}
+
+.carslider section .location{
+	font-size: 25px;
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color: #fff;
+	font-style: italic;
+  margin-bottom: 10px;
+}
+
+.carslider section p {
+	font-size: 18px;
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color: #fff;
+  margin: 0 200px 10px;
+	text-align: center;
+}
+
+.carslider section .longtest {
+  font-size: 15px;
+}
+
+.carslider section .name {
+	font-size: 17px;
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.carslider section .job {
+	font-size: 17px;
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color: #fff;
+	font-style: italic;
+}
+
+/* -----------------media queries----------------- */
     @media screen and (max-width: 970px) {
     .wrapper .btn{
         display: block;
@@ -543,6 +672,34 @@ nav .wrapper {
   .content .row header{
     font-size: 19px;
   }
+
+  /* carousel responsiveness */
+  .carslider section .club {
+    font-size: 22px;
+    }
+
+    .carslider section .location {
+        font-size: 13px;
+    }
+
+    .carslider section .name {
+        font-size: 12px;
+    }
+
+    .carslider section .job {
+        font-size: 12px;
+    }
+
+    .carslider section .longtest {
+      padding-right: 0px;
+      margin-right: 53px;
+      margin-left: 53px;
+  }
+  .carslider section p {
+      margin-right: 53px;
+      margin-left: 53px;
+  }
+
     }
 
 
@@ -556,6 +713,11 @@ nav .wrapper {
     @media (max-width: 574px) {
         .footer-col{
             width: 100%;
+        }
+
+        /* hide carousel, screen too small to read */
+        .carcontainer {
+          display: none;
         }
         
     }
