@@ -1,5 +1,5 @@
 <!doctype html>
-<html><!-- InstanceBegin template="/Templates/static.dwt" codeOutsideHTMLIsLocked="false" -->
+<html>
 <head>
 	<!-- Google Tag Manager -->
 	<script>
@@ -24,18 +24,18 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<!-- InstanceBeginEditable name="doctitle" -->
+	<!-- TemplateBeginEditable name="doctitle" -->
 	<title>Landmark Golf Course Products | Golf Course Furnishings</title>
-	<!-- InstanceEndEditable -->
+	<!-- TemplateEndEditable -->
 	
-	<!-- InstanceBeginEditable name="metadescr" --><meta name="description" content=""><!-- InstanceEndEditable -->
-	<link rel= "icon" href="assets/images/favicon.ico" type="image/x-icon">
-	<link rel= "shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+	<!-- TemplateBeginEditable name="metadescr" --><meta name="description" content=""><!-- TemplateEndEditable -->
+	<link rel= "icon" href="../assets/images/favicon.ico" type="image/x-icon">
+	<link rel= "shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+	<link href="../assets/css/style.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-	<!-- InstanceBeginEditable name="head" -->
-	<!-- InstanceEndEditable -->
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
 	
 	<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 	
@@ -52,7 +52,7 @@
 	
 	<nav>
     <div class="wrapper">
-      <div class="logo"><a href="index.html"><img src="assets/images/lgcplogobw.png" alt="landmark golf course products logo" width="250"></a></div>
+      <div class="logo"><a href="../index.html"><img src="../assets/images/lgcplogobw.png" alt="landmark golf course products logo" width="250"></a></div>
       <input type="radio" name="slider" id="menu-btn">
       <input type="radio" name="slider" id="close-btn">
       <ul class="nav-links">
@@ -185,13 +185,13 @@
 	
 	<div class="strip">
         <div class="phone-number">1 &#40;888&#41; 839&ndash;3853</div>
-        <div class="icon"><a href="file:///Macintosh HD/Users/marketingdirector/Desktop/index.html"><img src="assets/images/LGCP-Icon.png" alt="landmark studio and design logo" height="28"></a></div> 
+        <div class="icon"><a href="file:///Macintosh HD/Users/marketingdirector/Desktop/index.html"><img src="../assets/images/LGCP-Icon.png" alt="landmark studio and design logo" height="28"></a></div> 
         <div class="extra">Muskego, WI</div>  
 	</div>
 	
-	<!-- InstanceBeginEditable name="main-content" -->
+	<!-- TemplateBeginEditable name="main-content" -->
     <main></main>
-	<!-- InstanceEndEditable -->
+	<!-- TemplateEndEditable -->
 
 <footer class="footer">
 		<div class="footer-container">
@@ -243,7 +243,7 @@
 	</div>
 	
 
-	<script src="assets/js/script.js" charset="utf-8"></script>
+	<script src="../assets/js/script.js" charset="utf-8"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
 </body>
-<!-- InstanceEnd --></html>
+</html>
