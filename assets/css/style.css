@@ -657,6 +657,20 @@ ul {
   background: var(--darker-green);
 }
 
+/* -----------------customization section----------------- */
+  .custom-margin {
+    margin-top: 100px;
+  }
+
+  .col img {
+    width: 100%;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+
 /* -----------------media queries----------------- */
     @media (hover) {
       .card-content{
