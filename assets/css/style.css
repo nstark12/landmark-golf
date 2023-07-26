@@ -662,6 +662,10 @@ ul {
     margin-top: 100px;
   }
 
+  .custom-text {
+    font-size: 30px;
+  }
+
   .col img {
     width: 100%;
   }
