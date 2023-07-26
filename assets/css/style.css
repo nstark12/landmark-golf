@@ -448,6 +448,68 @@ ul {
   margin-bottom: 15px;
 }
 
+/* -----------------industry section----------------- */
+    .col-3 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .col-container {
+      position: relative;
+      width: 31%;
+      margin: 10px 5px;
+    }
+
+    .col-container img {
+      width: 100%;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: var(--dark-green);
+    }
+    
+    .col-container:hover .overlay {
+      opacity: 1;
+    }
+    
+    .overlaytext {
+      color: white;
+      font-size: 15px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .industry-header {
+      text-align: center;
+      margin-top: 40px;
+      background: var(--dark-green);
+      font-size: 25px;
+      padding: 15px 30px;
+      color: white;
+    }
+
+    .industry {
+      text-align: center;
+      font-family: var(--fancy-font);
+      font-style: italic;
+      margin-bottom: 35px;
+    }
+
 /* -----------------media queries----------------- */
     @media (hover) {
       .card-content{
@@ -669,6 +731,11 @@ ul {
     width: 92%;
   }
 
+  /* industry standard responsiveness */
+  .overlaytext {
+    font-size: 12px;
+  }
+
     }
 
     @media (max-width: 850px) {
@@ -693,6 +760,11 @@ ul {
         /* makes category section responsive at different width */
         .category-column {
           width: 22%;
+        }
+
+        /* industry standard responsiveness */
+        .overlaytext {
+          font-size: 10px;
         }
 
     }
@@ -731,6 +803,15 @@ ul {
         .card-bf {
           width: 94%;
           margin-bottom: 35px;
+        }
+
+         /* industry standard responsiveness */
+        .col-container {
+          width: 94%;
+        }
+
+        .overlaytext {
+          font-size: 18px;
         }
 
 
