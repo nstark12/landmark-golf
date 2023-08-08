@@ -633,6 +633,12 @@ ul {
   margin: 10px;
 }
 
+.btn-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .header-btns a {
   margin: 15px;
 }
