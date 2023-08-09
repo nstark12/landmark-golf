@@ -36,6 +36,12 @@ img.product-img {
     margin: 50px 0 100px;
 }
 
+.product-img-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .ind-product-row {
     margin: 4%;
     display: flex;
@@ -54,7 +60,7 @@ img.product-img {
 }
 
 .outdoor-care {
-    width: 70%;
+    width: 80%;
 }
 
 .outdoor-care h3,
