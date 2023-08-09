@@ -40,6 +40,11 @@ img.product-img.swan{
     margin: 50px 100px;
 }
 
+img.product-img.medium{
+    width: 40%;
+    margin: 50px 100px;
+}
+
 .product-img-div {
     width: 100%;
     padding-right: 100px;
