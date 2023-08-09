@@ -1,0 +1,165 @@
+:root {
+    --dark-green: #4D5F32;
+    --darker-green: #303F1F;
+    --dark-gray: #7a7a7a;
+    --light-gray: #d3d3d3;
+    --fancy-font: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+hr {
+    margin: 20px 0;
+    border: var(--light-gray) 0.25px solid;
+}
+
+
+/* -----------------individual product page----------------- */
+
+/* left column */
+img.product-img {
+    width: 70%;
+    margin: 50px 0 100px;
+}
+
+.ind-product-row {
+    margin: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ind-product-col {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0;
+}
+
+.bigger-col {
+    flex: 2 0 0;
+}
+
+.outdoor-care {
+    width: 70%;
+}
+
+.outdoor-care h3,
+.specifications h3 {
+    font-family: var(--fancy-font);
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--dark-green);
+}
+
+.outdoor-care p {
+    margin: 20px 0 20px;
+    color: var(--dark-gray);
+}
+
+a.wood-link {
+    color: var(--darker-green);
+}
+
+a.wood-link:hover {
+    cursor: pointer;
+    color: var(--dark-green);
+}
+
+/* right column */
+.ind-product-col h1 {
+    font-family: var(--fancy-font);
+    font-size: 60px;
+    font-weight: 300;
+    margin: 50px 0 40px;
+}
+
+.ind-product-col p {
+    margin: 10px 0;
+    color: var(--dark-gray);
+}
+
+/* space between paragraphs and button */
+p.btn-space {
+    margin-bottom: 40px;
+}
+
+/* table styling */
+table {
+    margin: 15px 0;
+    border: thin none var(--light-gray);
+    border-spacing: 0px 0px;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: 400;
+    font-family: var(--fancy-font);
+    color: var(--dark-green);
+}
+
+td p{
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+/* disclaimer styling */
+p.disclaimer {
+    font-size: 10px;
+}
+
+.outdoor-mobile {
+    display: none;
+}
+
+/* -----------------media queries----------------- */
+
+@media (max-width: 767px) {
+    .ind-product-col h1{
+        font-size: 50px;
+        margin-top: 2px;
+    }
+
+    .ind-product-row {
+        margin: 4%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ind-product-row img {
+        order: 0;
+        width: 100%;
+    }
+
+    .outdoor-care {
+        display: none;
+    }
+
+    .outdoor-mobile {
+        display: block;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .btn-green {
+        font-size: 14px;
+    }
+    
+
+   
+}
