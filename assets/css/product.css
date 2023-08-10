@@ -120,6 +120,14 @@ a.wood-link:hover {
     font-size: 14px;
 }
 
+.ind-product-col p span.important {
+    margin: 10px 0;
+    color: var(--dark-green);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: var(--fancy-font);
+}
+
 /* space between paragraphs and button */
 p.btn-space {
     margin-bottom: 40px;
