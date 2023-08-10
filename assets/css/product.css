@@ -139,6 +139,15 @@ th {
     color: var(--dark-green);
 }
 
+thead {
+    background: var(--dark-green);
+}
+
+thead tr th {
+    color: white;
+    padding: 5px;
+}
+
 td p{
     padding-left: 15px;
     font-size: 14px;
