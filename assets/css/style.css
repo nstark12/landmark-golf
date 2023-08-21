@@ -671,6 +671,10 @@ ul {
   background: var(--darker-green);
 }
 
+.granite {
+  width: 100%;
+}
+
 /* -----------------customization section----------------- */
   .custom-margin {
     margin-top: 100px;
