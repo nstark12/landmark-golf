@@ -186,13 +186,11 @@ p.disclaimer {
 /* Color Options */
 
 .prod-img img {
-    position: absolute;
-    opacity: 0;
+    display: none;
 }
 
 .prod-img img.active {
-    opacity: 1;
-    position: relative;
+    display: block;
 }
 
 .product-color span,
