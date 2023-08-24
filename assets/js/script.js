@@ -1,3 +1,16 @@
+// Color changing
+document.addEventListener("touchstart", function() {}, true);
+$(document).ready(function() {
+
+  $('.color-choose input').on('click', function() {
+      var productColor = $(this).attr('data-image');
+
+      $('.active').removeClass('active');
+      $('.prod-img img[data-image = ' + productColor + ']').addClass('active');
+      $(this).addClass('active');
+  });
+
+});
 
 // cookie popup
 const cookieBox = document.querySelector(".cookiewrapper"),
@@ -45,3 +58,5 @@ rightArrow.addEventListener("click",function(){
 	indicatorParents.children[sectionIndex].classList.add("selected");
 	carslider.style.transform = "translate(" + (sectionIndex) * -25 + "%)";
 });
+
+

@@ -183,6 +183,155 @@ p.disclaimer {
     display: none;
 }
 
+/* Color Options */
+
+.prod-img img {
+    position: absolute;
+    opacity: 0;
+}
+
+.prod-img img.active {
+    opacity: 1;
+    position: relative;
+}
+
+.product-color span,
+.cable-config span {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--dark-gray);
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.color-choose div {
+    display: inline-block;
+  }
+  
+  .color-choose input[type="radio"] {
+    display: none;
+  }
+  
+  .color-choose input[type="radio"] + label span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: -1px 2px 6px 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .color-choose input[type="radio"] + label span {
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+  }
+  
+  .color-choose input[type="radio"]#green + label span {
+    background-color: #47877c;
+  }
+  .color-choose input[type="radio"]#black + label span {
+    background-color: #1E191C;
+  }
+  .color-choose input[type="radio"]#weatherwood + label span {
+    background-color: #bca997;
+  }
+  .color-choose input[type="radio"]#tudorbrown + label span {
+    background-color: #734728;
+  }
+  .color-choose input[type="radio"]#white + label span {
+    background-color: #ffffff;
+  }
+  .color-choose input[type="radio"]#gray + label span {
+    background-color: #808285;
+  }
+  .color-choose input[type="radio"]#blue + label span {
+    background-color: #3a85bb;
+  }
+  .color-choose input[type="radio"]#cherrywood + label span {
+    background-color: #76271c;
+  }
+  .color-choose input[type="radio"]#patriotblue + label span {
+    background-color: #243771;
+  }
+  .color-choose input[type="radio"]#cedar + label span {
+    background-color: #cf8729;
+  }
+  .color-choose input[type="radio"]#red + label span {
+    background-color: #c1272d;
+  }
+  .color-choose input[type="radio"]#yellow + label span {
+    background-color: #efde54;
+  }
+  
+  .color-choose input[type="radio"]#greenpanel + label span {
+    background-color: #47877c;
+  }
+  .color-choose input[type="radio"]#blackpanel + label span {
+    background-color: #1E191C;
+  }
+  .color-choose input[type="radio"]#weatherwoodpanel + label span {
+    background-color: #bca997;
+  }
+  .color-choose input[type="radio"]#tudorbrownpanel + label span {
+    background-color: #734728;
+  }
+  .color-choose input[type="radio"]#whitepanel + label span {
+    background-color: #ffffff;
+  }
+  .color-choose input[type="radio"]#graypanel + label span {
+    background-color: #808285;
+  }
+  .color-choose input[type="radio"]#bluepanel + label span {
+    background-color: #3a85bb;
+  }
+  .color-choose input[type="radio"]#cherrywoodpanel + label span {
+    background-color: #76271c;
+  }
+  .color-choose input[type="radio"]#patriotbluepanel + label span {
+    background-color: #243771;
+  }
+  .color-choose input[type="radio"]#cedarpanel + label span {
+    background-color: #cf8729;
+  }
+  .color-choose input[type="radio"]#redpanel + label span {
+    background-color: #c1272d;
+  }
+  .color-choose input[type="radio"]#yellowpanel + label span {
+    background-color: #efde54;
+  }
+  
+  .color-choose input[type="radio"]#lightgray + label span {
+    background-color: #979797;
+  }
+  
+  .color-choose input[type="radio"]#charcoal + label span {
+    background-color: #4C4C4C;
+  }
+  
+  .color-choose input[type="radio"]#sage + label span {
+    background-color: #aabab8;
+  }
+  .color-choose input[type="radio"]#slate + label span {
+    background-color: #527490;
+  }
+  .color-choose input[type="radio"]#citrus + label span {
+    background-color: #f48550;
+  }
+  .color-choose input[type="radio"]#pool + label span {
+    background-color: #1dadcf;
+  }
+  .color-choose input[type="radio"]#leaf + label span {
+    background-color: #9db301;
+  }
+
+  .color-choose input[type="radio"]:checked + label span {
+    background-image: url(../images/product-page/check-icn.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+
 /* -----------------media queries----------------- */
 
 @media (max-width: 767px) {
