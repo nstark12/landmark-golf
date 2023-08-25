@@ -200,6 +200,11 @@ p.disclaimer {
     color: var(--dark-gray);
     margin-bottom: 20px;
     display: inline-block;
+    
+}
+
+.cable-config span {
+  margin-top: 20px;
 }
 
 .color-choose div {
