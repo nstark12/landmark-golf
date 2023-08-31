@@ -427,6 +427,24 @@ ul {
   width: 46%;
 }
 
+.card-bf.rino-page {
+  width: 46%;
+}
+
+.card-bf2.rino-page {
+  background-image: url("../images/bfmat1-min.jpg");
+  width: 46%;
+}
+
+.card-easy.rino-page {
+  width: 46%;
+}
+
+.card-easy2.rino-page {
+  background-image: url("../images/easyam-min.jpg");
+  width: 46%;
+}
+
 .card-rino2.rino-page {
   background-image: url("../images/rino-mat-2-min.jpg");
   width: 46%;
@@ -1334,14 +1352,15 @@ p.material-app {
     width: 92%;
   }
 
-  .card-rino.rino-page {
+  .card-rino.rino-page,
+  .card-rino2.rino-page,
+  .card-bf.rino-page,
+  .card-bf2.rino-page,
+  .card-easy.rino-page,
+  .card-easy2.rino-page {
     width: 92%;
   }
   
-  .card-rino2.rino-page {
-    width: 92%;
-  }
-
   /* industry standard responsiveness */
   .overlaytext {
     font-size: 12px;
