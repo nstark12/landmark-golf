@@ -382,6 +382,22 @@ ul {
   border-radius: 4px;
 }
 
+.bg-3 {
+  background-image: url("../images/cust/cust-sizing-min.jpg");
+}
+
+.bg-4 {
+  background-image: url("../images/cust/cust-color-min.jpg");
+}
+
+.bg-5 {
+  background-image: url("../images/cust/cust-function-min.jpg");
+}
+
+.bg-6 {
+  background-image: url("../images/cust/cust-branding-min.jpg");
+}
+
 /* -----------------materials section----------------- */
 .materials {
   text-align: center;
@@ -539,6 +555,10 @@ ul {
       font-family: var(--fancy-font);
       font-style: italic;
       margin-bottom: 35px;
+    }
+
+    .logopage {
+      font-size: 15px;
     }
 
 
@@ -1364,6 +1384,10 @@ p.material-app {
   /* industry standard responsiveness */
   .overlaytext {
     font-size: 12px;
+  }
+
+  .logopage {
+    font-size: 10px;
   }
 
     }
