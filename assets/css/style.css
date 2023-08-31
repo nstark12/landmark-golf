@@ -423,6 +423,15 @@ ul {
   width: 30%;
 }
 
+.card-rino.rino-page {
+  width: 46%;
+}
+
+.card-rino2.rino-page {
+  background-image: url("../images/rino-mat-2-min.jpg");
+  width: 46%;
+}
+
 .card-easy {
   background-image: url("../images/easy.jpg");
   width: 30%;
@@ -449,6 +458,8 @@ ul {
   font-family: var(--fancy-font);
   margin-bottom: 15px;
 }
+
+
 
 /* -----------------industry section----------------- */
     .col-3 {
@@ -1010,6 +1021,94 @@ p.rep-contact span.tab {
   font-style: italic;
 }
 
+/* -----------------material pages----------------- */
+p.material-about {
+  margin: 2% 4%;
+  
+}
+
+
+.rino-col {
+  width: 100%;
+  margin: 0 -1%;
+}
+
+.rino-gap {
+  margin-right: 4%;
+}
+
+.materials.mat-head {
+  text-align: left;
+}
+
+.rino-gap h1 {
+  margin: 0;
+  color: var(--dark-green);
+}
+
+.rino-gap h2 {
+  font-weight: 400;
+  font-family: var(--fancy-font);
+  margin-top: 10px;
+}
+
+.rino-gap img {
+  width: 50%;
+  margin: 60px auto;
+}
+
+p.material-app {
+  color: black;
+  font-size: 15px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+#accordion li{
+	list-style: none;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 30px 15px;
+	border-radius: 4px;
+	background-color: var(--dark-green);
+}
+
+#accordion li label {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+	cursor: pointer;
+}
+
+#accordion li label span{
+	transform: rotate(90deg);
+	font-size: 18px;
+	color: #333;
+}
+
+#accordion label + input[type="radio"]{
+	display: none;
+}
+
+#accordion .accontent{
+	padding: 0 10px;
+	line-height: 26px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.5s;
+	color: #fff;
+}
+
+.accontent p {
+  color: white;
+}
+
+#accordion label + input[type="radio"]:checked + .accontent{
+	max-height: 400px;
+}
 
 
 
@@ -1042,6 +1141,7 @@ p.rep-contact span.tab {
         color: white;
         background-color: #4D5F32;
         padding: 0.4em 1.25em;
+        margin-top: 10px;
       }
       
       .card-button:hover,
@@ -1234,6 +1334,14 @@ p.rep-contact span.tab {
     width: 92%;
   }
 
+  .card-rino.rino-page {
+    width: 92%;
+  }
+  
+  .card-rino2.rino-page {
+    width: 92%;
+  }
+
   /* industry standard responsiveness */
   .overlaytext {
     font-size: 12px;
@@ -1322,6 +1430,10 @@ p.rep-contact span.tab {
           border-right: 15px solid #4D5F32;
           border-left: 0;
           left: -15px;
+        }
+
+        .rino-gap {
+          margin-right: 0;
         }
 
     }
