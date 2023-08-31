@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><FlowPaper_Zine_UIConfiguration>
+    <desktop>
+        <general imageAssets="assets_zine/material/" backgroundColor="#333333" panelColor="#555555" arrowColor="#ffffff" backgroundAlpha="1" navPanelBackgroundAlpha="0" enableFisheyeThumbnails="true" selectionColor="#AAAAAA" rollOverColor="#999999" fitModeScale="0.85" fitModeScaleMargin="-0.1" navPanelsVisible="true" zoomDragMode="true" bindBindNavigationKeys="true" readOnly="false" disableMouseWheel="false" disableZoom="false" flipSpeed="Medium" firstLastButtonsVisible="false" backgroundImage="" stretchBackgroundImage="true" enablePageShadows="true" linkColor="#72e6ff" linkAlpha="0.4" disableSharingURL="false" flipSound="Softcover" flipAnimation="3D, Soft" startWithTOCOpen="false" bindBrowserNavKeys="false" arrowSize="22"/>
+        <toolbar height="40" width="100%" paddingTop="9" paddingLeft="15" paddingRight="15" paddingBottom="8" backgroundColor="#555555" borderColor="#555555" borderStyle="solid" borderThickness="1" cornerRadius="3" horizontalAlign="center" location="top" visible="true">
+            <element type="button" id="bttnPrint" icon_width="14" icon_height="14" visible="false"/>
+            <element type="button" id="bttnOutline" icon_width="13" icon_height="13" paddingTop="1" visible="true"/>
+            <element type="button" id="bttnDownload" icon_width="14" icon_height="14" visible="false"/>
+            <element type="button" id="bttnSocialShare" height="21" icon_width="14" icon_height="14" visible="true" paddingTop="0"/>
+            <element type="button" id="bttnPlay" height="21" icon_width="15" icon_height="15" visible="false" paddingTop="0"/>
+            <element type="button" id="bttnBookView" height="19" icon_width="15" icon_height="15" paddingLeft="15" visible="false"/>
+            <element type="button" id="bttnSinglePage" height="19" paddingLeft="0" icon_width="13" icon_height="13" paddingRight="15" visible="false"/>
+            <element type="slider" id="zoomSlider" height="11" width="80" visible="true"/>
+            <element type="textinput" id="txtZoomFactor" height="19" width="32" visible="false"/>
+            <element type="button" id="bttnFullscreen" height="19" icon_width="13" icon_height="13" visible="true"/>
+            <element type="button" id="bttnPrevPage" icon_width="14" icon_height="14" height="20" width="15" visible="true"/>
+            <element type="textinput" id="txtPageNumber" height="19" width="25" visible="true"/>
+            <element type="label" id="lblTotalPages" paddingTop="1" visible="true"/>
+            <element type="button" id="bttnPrevNext" icon_width="14" icon_height="14" height="19" width="15" visible="true"/>
+            <element type="button" id="bttnTextSelect" height="19" width="25" icon_width="14" icon_height="13" paddingLeft="15" visible="false"/>
+            <element type="button" id="bttnHand" height="19" width="14" icon_width="14" icon_height="13" paddingRight="25" visible="false"/>
+            <element type="textinput" id="txtSearch" heigh="19" width="40" visible="true"/>
+            <element type="button" id="bttnFind" height="19" width="25" icon_width="12" icon_height="12" visible="true" paddingLeft="9"/>
+            <element type="progress" id="progressLoading"/>
+        </toolbar>
+    </desktop>
+    <tablet>
+        <general imageAssets="assets_zine/material/mobile/" backgroundColor="#333333" zoomDragMode="true" readOnly="false" disableMouseWheel="false" disableZoom="false" flipSpeed="Medium" enableFisheyeThumbnails="true" navPanelsVisible="true" firstLastButtonsVisible="false" bindBindNavigationKeys="true" backgroundImage="" stretchBackgroundImage="true" enablePageShadows="true" panelColor="#555555" arrowColor="#ffffff" navPanelBackgroundAlpha="0" linkColor="#72e6ff" linkAlpha="0.4" disableSharingURL="false" flipSound="Softcover" flipAnimation="3D, Soft" startWithTOCOpen="false" bindBrowserNavKeys="false" backgroundAlpha="1" arrowSize="22"/>
+        <toolbar gradients="false" height="46" paddingTop="4" paddingBottom="3">
+            <element type="button" id="bttnOutline" paddingLeft="15" icon_height="30" icon_width="30" visible="true"/>
+            <element type="button" id="bttnPrint" icon_height="39" icon_width="39" visible="false"/>
+            <element type="button" id="bttnBookView" icon_height="30" icon_width="45" visible="false"/>
+            <element type="button" id="bttnSinglePage" icon_height="30" icon_width="25" visible="false"/>
+            <element type="button" id="bttnThumbView" icon_height="30" icon_width="30" visible="false"/>
+            <element type="button" id="bttnDownload" icon_height="32" icon_width="32" visible="false"/>
+            <element type="button" id="bttnZoomIn" icon_height="30" icon_width="30" visible="true"/>
+            <element type="button" id="bttnZoomOut" icon_height="30" icon_width="30" visible="true"/>
+            <element type="button" id="bttnFullscreen" icon_height="30" icon_width="30" visible="false"/>
+            <element type="button" id="bttnPrevPage" icon_height="30" icon_width="30" visible="true"/>
+            <element type="textinput" id="txtPageNumber" marginTop="3" readonly="false" visible="true"/>
+            <element type="label" id="lblTotalPages" marginTop="6" visible="true"/>
+            <element type="button" id="bttnPrevNext" icon_height="30" icon_width="30" visible="true"/>
+            <element type="textinput" id="txtSearch" marginTop="3" visible="true"/>
+            <element type="button" id="bttnFind" icon_width="30" icon_height="30" visible="true"/>
+            <element type="button" id="bttnMore" icon_width="30" icon_height="30" visible="false"/>
+        </toolbar>
+    </tablet>
+    <mobile>
+        <general imageAssets="assets_zine/material/mobile/" backgroundColor="#333333" zoomDragMode="true" readOnly="false" disableMouseWheel="false" disableZoom="false" flipSpeed="Medium" enableFisheyeThumbnails="true" navPanelsVisible="true" firstLastButtonsVisible="false" bindBindNavigationKeys="true" backgroundImage="" stretchBackgroundImage="true" enablePageShadows="true" panelColor="#555555" arrowColor="#ffffff" navPanelBackgroundAlpha="0" linkColor="#72e6ff" linkAlpha="0.4" disableSharingURL="false" flipSound="Softcover" flipAnimation="3D, Soft" startWithTOCOpen="false" bindBrowserNavKeys="false" backgroundAlpha="1" arrowSize="22"/>
+        <toolbar gradients="false" height="46" paddingTop="4" paddingBottom="3">
+            <element type="button" id="bttnOutline" paddingLeft="15" icon_height="30" icon_width="30" visible="true"/>
+            <element type="button" id="bttnPrint" icon_height="39" icon_width="39" visible="false"/>
+            <element type="button" id="bttnBookView" icon_height="30" icon_width="45" visible="false"/>
+            <element type="button" id="bttnSinglePage" icon_height="30" icon_width="25" visible="false"/>
+            <element type="button" id="bttnDownload" icon_height="30" icon_width="30" visible="false"/>
+            <element type="button" id="bttnThumbView" icon_height="30" icon_width="30" visible="false"/>
+            <element type="button" id="bttnZoomIn" icon_height="30" icon_width="30" visible="true"/>
+            <element type="button" id="bttnZoomOut" icon_height="30" icon_width="30" visible="true"/>
+            <element type="button" id="bttnFullscreen" icon_height="30" icon_width="30" visible="false"/>
+            <element type="button" id="bttnPrevPage" icon_height="25" icon_width="25" visible="true"/>
+            <element type="textinput" id="txtPageNumber" marginTop="3" readonly="false" visible="true"/>
+            <element type="label" id="lblTotalPages" marginTop="6" visible="true"/>
+            <element type="button" id="bttnPrevNext" icon_height="25" icon_width="25" visible="true"/>
+            <element type="textinput" id="txtSearch" marginTop="3" width="75" visible="true"/>
+            <element type="button" id="bttnMore" icon_width="30" icon_height="30" visible="false"/>
+        </toolbar>
+    </mobile>
+<outline><node pageNumber="6" title="Clubhouse/Proshop"/><node pageNumber="18" title="Pool/Tennis Area"/><node pageNumber="22" title="Refreshment"/><node pageNumber="36" title="Driving Range"/><node pageNumber="50" title="Waste Solutions"/><node pageNumber="56" title="Outdoor Seating &amp; Patio"/><node pageNumber="70" title="Tee Box"/><node pageNumber="86" title="Course &amp; Greens"/><node pageNumber="114" title="Index"/></outline><labels><node pageNumber="1" title="Cov1"/><node pageNumber="2" title="Cov2"/><node pageNumber="3" title="1"/><node pageNumber="4" title="2"/><node pageNumber="5" title="3"/><node pageNumber="6" title="4"/><node pageNumber="7" title="5"/><node pageNumber="8" title="6"/><node pageNumber="9" title="7"/><node pageNumber="10" title="8"/><node pageNumber="11" title="9"/><node pageNumber="12" title="10"/><node pageNumber="13" title="11"/><node pageNumber="14" title="12"/><node pageNumber="15" title="13"/><node pageNumber="16" title="14"/><node pageNumber="17" title="15"/><node pageNumber="18" title="16"/><node pageNumber="19" title="17"/><node pageNumber="20" title="18"/><node pageNumber="21" title="19"/><node pageNumber="22" title="20"/><node pageNumber="23" title="21"/><node pageNumber="24" title="22"/><node pageNumber="25" title="23"/><node pageNumber="26" title="24"/><node pageNumber="27" title="25"/><node pageNumber="28" title="26"/><node pageNumber="29" title="27"/><node pageNumber="30" title="28"/><node pageNumber="31" title="29"/><node pageNumber="32" title="30"/><node pageNumber="33" title="31"/><node pageNumber="34" title="32"/><node pageNumber="35" title="33"/><node pageNumber="36" title="34"/><node pageNumber="37" title="35"/><node pageNumber="38" title="36"/><node pageNumber="39" title="37"/><node pageNumber="40" title="38"/><node pageNumber="41" title="39"/><node pageNumber="42" title="40"/><node pageNumber="43" title="41"/><node pageNumber="44" title="42"/><node pageNumber="45" title="43"/><node pageNumber="46" title="44"/><node pageNumber="47" title="45"/><node pageNumber="48" title="46"/><node pageNumber="49" title="47"/><node pageNumber="50" title="48"/><node pageNumber="51" title="49"/><node pageNumber="52" title="50"/><node pageNumber="53" title="51"/><node pageNumber="54" title="52"/><node pageNumber="55" title="53"/><node pageNumber="56" title="54"/><node pageNumber="57" title="55"/><node pageNumber="58" title="56"/><node pageNumber="59" title="57"/><node pageNumber="60" title="58"/><node pageNumber="61" title="59"/><node pageNumber="62" title="60"/><node pageNumber="63" title="61"/><node pageNumber="64" title="62"/><node pageNumber="65" title="63"/><node pageNumber="66" title="64"/><node pageNumber="67" title="65"/><node pageNumber="68" title="66"/><node pageNumber="69" title="67"/><node pageNumber="70" title="68"/><node pageNumber="71" title="69"/><node pageNumber="72" title="70"/><node pageNumber="73" title="71"/><node pageNumber="74" title="72"/><node pageNumber="75" title="73"/><node pageNumber="76" title="74"/><node pageNumber="77" title="75"/><node pageNumber="78" title="76"/><node pageNumber="79" title="77"/><node pageNumber="80" title="78"/><node pageNumber="81" title="79"/><node pageNumber="82" title="80"/><node pageNumber="83" title="81"/><node pageNumber="84" title="82"/><node pageNumber="85" title="83"/><node pageNumber="86" title="84"/><node pageNumber="87" title="85"/><node pageNumber="88" title="86"/><node pageNumber="89" title="87"/><node pageNumber="90" title="88"/><node pageNumber="91" title="89"/><node pageNumber="92" title="90"/><node pageNumber="93" title="91"/><node pageNumber="94" title="92"/><node pageNumber="95" title="93"/><node pageNumber="96" title="94"/><node pageNumber="97" title="95"/><node pageNumber="98" title="96"/><node pageNumber="99" title="97"/><node pageNumber="100" title="98"/><node pageNumber="101" title="99"/><node pageNumber="102" title="100"/><node pageNumber="103" title="101"/><node pageNumber="104" title="102"/><node pageNumber="105" title="103"/><node pageNumber="106" title="104"/><node pageNumber="107" title="105"/><node pageNumber="108" title="106"/><node pageNumber="109" title="107"/><node pageNumber="110" title="108"/><node pageNumber="111" title="109"/><node pageNumber="112" title="110"/><node pageNumber="113" title="111"/><node pageNumber="114" title="112"/><node pageNumber="115" title="Cov3"/><node pageNumber="116" title="Cov4"/></labels></FlowPaper_Zine_UIConfiguration>

@@ -718,6 +718,33 @@ ul {
     margin: 10px 0;
   }
 
+  /* -----------------legal pages----------------- */
+  p.terms {
+    margin-bottom: 20px;
+  }
+
+  .specifications.legal-spec span {
+    font-size: 20px;
+    color: var(--dark-green);
+    font-weight: 500;
+  }
+
+  .tradelogo img {
+    width: 25%;
+  }
+
+  .specifications.claims {
+    margin-left: 30px;
+  }
+
+  span.boldterms {
+    font-weight: 500;
+  }
+
+  span.italic {
+    font-style: italic;
+  }
+
 /* -----------------media queries----------------- */
     @media (hover) {
       .card-content{
