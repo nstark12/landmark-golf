@@ -1,6 +1,8 @@
 :root {
     --dark-green: #4D5F32;
     --darker-green: #303F1F;
+    --dark-gray: #7a7a7a;
+    --light-gray: #d3d3d3;
     --fancy-font: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 }
 
@@ -692,6 +694,28 @@ ul {
   .btn-container {
     display: flex;
     justify-content: center;
+  }
+
+  /* -----------------series page----------------- */
+  .series-sub {
+    color: var(--dark-gray);
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto 40px;
+  }
+
+  .series-img img {
+    width: 92%;
+    margin: 2% 4%;
+  }
+
+  .specifications.series-spec {
+    margin: 2% 4%;
+  }
+
+  .specifications.series-spec p {
+    margin: 10px 0;
   }
 
 /* -----------------media queries----------------- */
