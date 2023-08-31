@@ -606,6 +606,10 @@ ul {
 
 }
 
+.product-type.type-category {
+  margin: 0 0 30px;
+}
+
 .product-material {
   display: flex;
   flex-direction: column;
