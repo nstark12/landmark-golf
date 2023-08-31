@@ -783,6 +783,49 @@ p.testimonial-page {
   margin-bottom: 40px;
 }
 
+/* -----------------contact page----------------- */
+.sub-header.map {
+  margin-top: 0;
+  font-size: 14px;
+  color: var(--dark-gray);
+  font-style: italic;
+}
+
+.sales-rep {
+  display: flex;
+
+}
+
+.rep-img img {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.rep-info p {
+  font-size: 15px;
+}
+
+p.rep-name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+p.rep-title {
+  font-style: italic;
+}
+
+p.rep-contact {
+  font-size: 12px;
+}
+
+p.rep-contact span.tab {
+  font-size: 9px;
+  font-style: italic;
+}
+
+
+
+
 /* -----------------media queries----------------- */
     @media (hover) {
       .card-content{
