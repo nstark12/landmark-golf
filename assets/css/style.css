@@ -1053,6 +1053,10 @@ p.rep-contact {
   font-size: 12px;
 }
 
+.rep-contact a {
+  color: var(--dark-gray);
+}
+
 p.rep-contact span.tab {
   font-size: 9px;
   font-style: italic;
