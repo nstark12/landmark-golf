@@ -1506,6 +1506,11 @@ p.material-app {
     }
 
     @media (max-width: 574px) {
+
+        .rep-contact {
+          color: black;
+        }
+
         .hero-text h1 {
           font-size: 45px;
         }
