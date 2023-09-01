@@ -1432,6 +1432,19 @@ p.material-app {
           font-size: 15px;
         }
 
+        .product-type {
+          font-size: 40px;
+        }
+
+        header.product-material .product-type-material {
+          font-size: 30px;
+        }
+
+        header.materials.custom-text {
+          font-size: 25px;
+        }
+
+
         /* about page */
         .timeline{
           margin: 50px auto;
