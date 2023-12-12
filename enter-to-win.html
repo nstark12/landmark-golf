@@ -472,10 +472,23 @@
                 placeholder="State&#47;Province &#40;US&#47;Canada&#41;"
                 required
               />
-              <select required>
-                <option>EasyCare&trade; (Plastic)</option>
-                <option>Rinowood&trade; (Wood)</option>
-              </select>
+              <div class="material-input">
+                <p>Material Choice</p>
+                <input
+                  type="radio"
+                  id="easycare"
+                  value="easycare"
+                  name="material"
+                />
+                <label for="easycare">EasyCare&trade; (Plastic)</label><br />
+                <input
+                  type="radio"
+                  id="rinowood"
+                  value="rinowood"
+                  name="material"
+                />
+                <label for="easycare">Rinowood&trade; (Wood)</label><br />
+              </div>
               <div class="agreement">
                 <input
                   type="checkbox"
@@ -571,11 +584,9 @@
       </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <script src="assets/js/script.js" charset="utf-8"></script>
     <script
       id="ratufa_loader"
-      src="https://www.ratufa.io/c/ld.js?f=x3s1yhvp&n=n1.ratufa.io"
+      src="https://www.ratufa.io/c/ld.js?f=evmq1p5x&n=n1.ratufa.io"
     ></script>
   </body>
   <!-- InstanceEnd -->

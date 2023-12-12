@@ -359,8 +359,7 @@ form {
   cursor: pointer;
 }
 
-.input-field,
-select {
+.input-field {
   width: 400px;
   height: 40px;
   margin-top: 20px;
@@ -369,6 +368,19 @@ select {
   border: 1px solid #777;
   border-radius: 14px;
   outline: none;
+}
+
+.material-input {
+  color: white;
+  margin-top: 20px;
+}
+
+.material-input p {
+  margin-bottom: 10px;
+}
+
+.material-input input {
+  margin-bottom: 10px;
 }
 
 .thanks {
@@ -593,8 +605,7 @@ select {
     width: 350px;
   }
 
-  .input-field,
-  select {
+  .input-field {
     width: 250px;
   }
 
