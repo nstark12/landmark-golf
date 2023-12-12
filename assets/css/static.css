@@ -359,7 +359,8 @@ form {
   cursor: pointer;
 }
 
-.input-field {
+.input-field,
+select {
   width: 400px;
   height: 40px;
   margin-top: 20px;
@@ -592,7 +593,8 @@ form {
     width: 350px;
   }
 
-  .input-field {
+  .input-field,
+  select {
     width: 250px;
   }
 
